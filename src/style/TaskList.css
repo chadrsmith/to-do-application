@@ -1,0 +1,107 @@
+h4 {
+    color: antiquewhite;
+    font-size: 1.5em;
+}
+
+#bt-remove {
+    padding: 10px;
+    font-size: 0.8em;
+    margin: 3px;
+    margin-right: 0px;
+    width: auto;
+    
+    background-color: rgb(248, 0, 0);
+    color: #ffffff;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 15px;
+}
+
+.taskListMain .header button:hover {
+    background-color: #6d0000;
+    border: 2px solid #6d0000;
+    
+    color: antiquewhite;
+    
+    cursor: pointer;
+}
+
+.taskListMain {
+    padding: 10px;
+    width: 22vw;
+}
+
+.taskListMain .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1.75px solid #ffffff;
+    width: 60%;
+}
+
+.taskListMain .header button {
+    padding: 10px;
+    font-size: 1.0em;
+    margin: 3px;
+    margin-right: 0px;
+    width: auto;
+    
+    background-color: rgb(0, 49, 122);
+    color: #ffffff;
+    border: 2px solid rgb(0, 49, 122);
+}
+
+.taskListMain .header button:hover {
+    background-color: #001235;
+    border: 2px solid #001235;
+    
+    color: antiquewhite;
+    
+    cursor: pointer;
+}
+
+.taskListMain .taskList li {
+    list-style: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #333333;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.795);
+    box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+
+    transition: background-color .2s ease-out;
+}
+
+ul.taskList {    
+    padding: 0;
+}
+
+.taskContainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.taskContainer p {
+    text-align: center;
+}
+
+.taskContainer button {
+
+    width: 25%;
+    height: 3em;
+    
+    color: rgb(218, 218, 218);
+    font-size: 0.8em;
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 15px;
+    border: none;
+}
+
+.taskParagraph {
+    margin-top: 10%;
+}
